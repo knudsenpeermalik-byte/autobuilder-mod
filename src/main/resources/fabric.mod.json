@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "autobuilder",
+  "version": "${version}",
+  "name": "AutoBuilder Mod",
+  "description": "Autobuilder mit 3 Ticks Delay",
+  "authors": ["Du"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autobuilder.AutoBuilderClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "fabric-api": "*",
+    "litematica": "*"
+  }
+}
